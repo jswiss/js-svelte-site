@@ -1,5 +1,5 @@
 {
-    "name": "Joshua Swiss's Personal Site",
+    "name": "joshua-swiss-site",
     "description": "Thoughts, interests, musings, and whatnot",
     "version": "0.0.1",
     "scripts": {
@@ -13,6 +13,10 @@
     },
     "dependencies": {
         "compression": "^1.7.1",
+        "front-matter": "^3.1.0",
+        "glob": "^7.1.6",
+        "markdown-it": "^10.0.0",
+        "mz": "^2.7.0",
         "polka": "next",
         "sirv": "^0.4.0"
     },
