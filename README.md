@@ -1,5 +1,12 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/85e6e0bb-4dda-497f-a91f-25ab5d236c80/deploy-status)](https://app.netlify.com/sites/practical-yonath-3add81/deploys)
 
+My personal site, which was an opportunity to play along with:
+
+- Svelte
+- Sapper
+- CSS Grid
+- Netlify CMS
+
 # sapper-template
 
 The default [Sapper](https://github.com/sveltejs/sapper) template, available for Rollup and webpack.
