@@ -12,13 +12,21 @@
     font-size: 4rem;
     font-weight: 600;
   }
+  #main-border {
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #17416d, -20px -20px 60px #1f5793;
+    width: 50rem;
+  }
 </style>
 
 <Nav {segment} />
 
 <main>
   <h1>Joshua Swiss</h1>
-  <slot />
+  <div id="main-border">
+
+    <slot />
+  </div>
 </main>
 
-<Footer {segment} />
+<Footer />
