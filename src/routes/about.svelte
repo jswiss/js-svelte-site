@@ -16,7 +16,7 @@
 </svelte:head>
 
 <main>
-  <h1>About this site</h1>
+  <h1>About me</h1>
 
-  <p>This is the 'about' page. There's not much here.</p>
+  <p>This is the 'about' page. There's not much here yet.</p>
 </main>
