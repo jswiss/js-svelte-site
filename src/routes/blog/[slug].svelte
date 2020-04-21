@@ -3,6 +3,7 @@
     // the `slug` parameter is available because
     // this file is called [slug].svelte
     const res = await this.fetch(`_posts/${params.slug}.md`);
+    console.log({ res });
 
     if (res.status === 200) {
       return { postMd: await res.text() };
