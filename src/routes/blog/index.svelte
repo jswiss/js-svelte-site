@@ -10,17 +10,16 @@
 
 <script>
   export let posts;
+  console.log(posts);
 </script>
 
 <style>
   h1 {
+    margin: 1em auto;
     text-align: center;
     margin: 0 auto;
   }
 
-  h1 {
-    margin: 1em auto;
-  }
   ul {
     margin: 0 0 1em 0;
     line-height: 1.5;

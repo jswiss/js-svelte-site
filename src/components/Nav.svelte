@@ -44,6 +44,7 @@
     text-decoration: none;
     padding: 1em 0.5em;
     display: block;
+    font-size: 1.2em;
   }
 </style>
 
