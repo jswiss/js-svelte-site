@@ -61,7 +61,10 @@
       </a>
     </li>
     <li>
-      <a href="https://www.linkedin.com/in/joshuaswiss/">
+      <a
+        href="https://www.linkedin.com/in/joshuaswiss/"
+        target="_blank"
+        rel="noopener noreferrer">
         <div
           class="linkedin"
           alt="explore my professional experience!"
@@ -69,7 +72,10 @@
       </a>
     </li>
     <li>
-      <a href="https://twitter.com/jswiiiss">
+      <a
+        href="https://twitter.com/jswiiiss"
+        target="_blank"
+        rel="noopener noreferrer">
         <div
           class="twitter"
           alt="see what I tweet!"
@@ -77,7 +83,10 @@
       </a>
     </li>
     <li>
-      <a href="https://github.com/jswiss">
+      <a
+        href="https://github.com/jswiss"
+        target="_blank"
+        rel="noopener noreferrer">
         <div
           class="github"
           alt="check out my repos!"

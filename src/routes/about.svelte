@@ -3,6 +3,9 @@
     text-align: center;
     margin: 0 auto;
   }
+  section {
+    margin-bottom: 1rem;
+  }
 
   p {
     margin: 1em auto;
@@ -14,5 +17,13 @@
 </svelte:head>
 
 <main>
-  <p>This is the 'About' page. There's not much here. Yet...</p>
+  <section>
+    <p>Current</p>
+  </section>
+  <section>
+    <p>Past</p>
+  </section>
+  <section>
+    <p>CV</p>
+  </section>
 </main>
