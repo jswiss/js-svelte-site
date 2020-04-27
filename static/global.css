@@ -9,10 +9,6 @@ body {
 	min-height: 100vh;
 }
 
-nav {
-	grid-area: nav;
-}
-
 body {
 	font-family: "Ropa Sans", sans-serif;
 	line-height: 1.5;
@@ -24,9 +20,15 @@ body {
 	display: grid;
 	grid-template-areas:
 		"nav"
+		/* "leftSection main rightSection" */
 		"main"
 		"footer";
 	grid-template-rows: auto 1fr auto;
+	/* grid-template-columns: auto 1fr auto; */
+}
+
+nav {
+	grid-area: nav;
 }
 
 main {

@@ -14,7 +14,10 @@
   #main-border {
     border-radius: 50px;
     box-shadow: 20px 20px 60px #17416d, -20px -20px 60px #1f5793;
-    width: 50rem;
+    min-width: 50rem;
+    min-height: 60%;
+    display: flex;
+    justify-content: center;
   }
 </style>
 

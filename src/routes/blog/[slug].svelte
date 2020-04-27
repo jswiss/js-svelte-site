@@ -3,7 +3,6 @@
     // the `slug` parameter is available because
     // this file is called [slug].svelte
     const res = await this.fetch(`_posts/${params.slug}.md`);
-    console.log({ res });
 
     if (res.status === 200) {
       return { postMd: await res.text() };
@@ -36,7 +35,14 @@
 		going to appear inside the {{{post.html}}} block,
 		so we have to use the :global(...) modifier to target
 		all elements inside .content
-	*/
+  */
+  section {
+    display: block;
+    padding: 2rem 0;
+  }
+  h1 {
+    margin-bottom: 3rem;
+  }
   .content :global(h2) {
     font-size: 1.4em;
     font-weight: 500;
@@ -68,8 +74,10 @@
   <title>{post.title}</title>
 </svelte:head>
 
-<h1>{post.title}</h1>
+<section>
+  <h1>{post.title}</h1>
 
-<div class="content">
-  {@html post.html}
-</div>
+  <div class="content">
+    {@html post.html}
+  </div>
+</section>
