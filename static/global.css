@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap");
 
+:root {
+	--pantone-blue: #1b4c80;
+}
+
 html,
 body {
-	background-color: #1b4c80;
+	background-color: var(--pantone-blue);
 }
 
 body {
 	min-height: 100vh;
-}
-
-nav {
-	grid-area: nav;
 }
 
 body {
@@ -24,9 +24,15 @@ body {
 	display: grid;
 	grid-template-areas:
 		"nav"
+		/* "leftSection main rightSection" */
 		"main"
 		"footer";
 	grid-template-rows: auto 1fr auto;
+	/* grid-template-columns: auto 1fr auto; */
+}
+
+nav {
+	grid-area: nav;
 }
 
 main {

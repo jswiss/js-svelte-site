@@ -15,10 +15,6 @@
 </script>
 
 <style>
-  p {
-    text-align: center;
-    margin: 0 auto;
-  }
   section {
     margin-bottom: 1rem;
   }
@@ -26,10 +22,7 @@
   p {
     margin: 1em auto;
     font-size: 1.3em;
-  }
-
-  .italic {
-    font-style: italic;
+    text-align: left;
   }
 </style>
 
@@ -46,17 +39,6 @@
       Hey there! I'm Josh, a software engineer based in Glasgow. This is my site
       to showcase my professional skillz &trade; and blather about whatever I
       find interesting, whether that be code or anything else.
-    </p>
-  </section>
-  <section>
-    <p>
-      I came into this profession in a bit of an abnormal way; not many devs
-      start off as carpenters, get a policy degree and become a management
-      consultant, then move abroad and work in the humanitarian aid and
-      development sector across sub-Saharan Africa, only to
-      <span class="italic">then</span>
-      decide learning to write code seemed interesting. Five years later and I'm
-      still at it!
     </p>
   </section>
   <section>
