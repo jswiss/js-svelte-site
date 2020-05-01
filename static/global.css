@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap");
 
+:root {
+	--pantone-blue: #1b4c80;
+}
+
 html,
 body {
-	background-color: #1b4c80;
+	background-color: var(--pantone-blue);
 }
 
 body {
