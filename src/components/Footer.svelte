@@ -26,29 +26,29 @@
     width: 32px;
     height: 32px;
     background-color: #f5f5f5;
-    -webkit-mask: url(twitter-icon.svg) no-repeat center;
-    mask: url(twitter-icon.svg) no-repeat center;
+    -webkit-mask: url(/icons/twitter-icon.svg) no-repeat center;
+    mask: url(/icons/twitter-icon.svg) no-repeat center;
   }
   .github {
     width: 32px;
     height: 32px;
     background-color: #f5f5f5;
-    -webkit-mask: url(github-icon.svg) no-repeat center;
-    mask: url(github-icon.svg) no-repeat center;
+    -webkit-mask: url(/icons/github-icon.svg) no-repeat center;
+    mask: url(/icons/github-icon.svg) no-repeat center;
   }
   .linkedin {
     width: 32px;
     height: 32px;
     background-color: #f5f5f5;
-    -webkit-mask: url(linkedin-icon.svg) no-repeat center;
-    mask: url(linkedin-icon.svg) no-repeat center;
+    -webkit-mask: url(/icons/linkedin-icon.svg) no-repeat center;
+    mask: url(/icons/linkedin-icon.svg) no-repeat center;
   }
   .email {
     width: 32px;
     height: 32px;
     background-color: #f5f5f5;
-    -webkit-mask: url(email-icon.svg) no-repeat center;
-    mask: url(email-icon.svg) no-repeat center;
+    -webkit-mask: url(/icons/email-icon.svg) no-repeat center;
+    mask: url(/icons/email-icon.svg) no-repeat center;
   }
 </style>
 

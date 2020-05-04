@@ -27,7 +27,7 @@
     display: flex;
     flex-direction: column;
     margin: 0.5rem;
-    border: 1px solid #1b4c80;
+    border: 1px solid #7e30a8;
     border-radius: 1%;
   }
   .title {
@@ -35,7 +35,7 @@
     font-size: 2rem;
   }
   .card-footer {
-    background-color: #575b60;
+    background-color: #7e30a8;
   }
   .post-date {
     margin: 0.5rem;

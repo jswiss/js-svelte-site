@@ -1,12 +1,12 @@
 <script>
   export let segment;
+  import Avatar from "./Avatar.svelte";
 </script>
 
 <style>
   nav {
-    border-bottom: 1px solid rgba(255, 62, 0, 0.1);
     font-weight: 300;
-    padding: 0 1em;
+    padding-left: 1rem;
   }
   ul {
     margin: 0;
@@ -35,16 +35,20 @@
     content: "";
     width: calc(100% - 1em);
     height: 2px;
-    background-color: rgb(255, 62, 0);
+    background-color: #7e30a8;
     display: block;
     bottom: -1px;
   }
 
   a {
     text-decoration: none;
-    padding: 1em 0.5em;
+    padding: 0.5em 0.5em;
     display: block;
     font-size: 1.2em;
+  }
+
+  .right {
+    float: right;
   }
 </style>
 
@@ -69,6 +73,11 @@
         aria-current={segment === 'blog' ? 'page' : undefined}
         href="blog">
         blog
+      </a>
+    </li>
+    <li class="right">
+      <a href=".">
+        <Avatar />
       </a>
     </li>
   </ul>
