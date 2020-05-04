@@ -42,9 +42,10 @@ nav {
 
 main {
 	grid-area: main;
-	max-width: 56em;
+	max-width: 80%;
+	/* max-width: 56em; */
 	min-height: auto;
-	padding: 2em;
+	/* padding: 2em; */
 	margin: 0 auto;
 	box-sizing: border-box;
 }
