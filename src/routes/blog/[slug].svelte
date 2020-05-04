@@ -72,6 +72,7 @@
 
 <svelte:head>
   <title>{post.title}</title>
+  <meta name="keywords" content={post.headings} />
 </svelte:head>
 
 <section>
