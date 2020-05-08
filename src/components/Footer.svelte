@@ -7,7 +7,8 @@
   /* clearfix */
   ul::after {
     content: "";
-    display: block;
+    display: flex;
+    flex-direction: row;
     clear: both;
   }
 

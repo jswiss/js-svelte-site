@@ -43,6 +43,7 @@
   h1 {
     margin-bottom: 3rem;
   }
+
   .content :global(h2) {
     font-size: 1.4em;
     font-weight: 500;
@@ -67,6 +68,10 @@
 
   .content :global(li) {
     margin: 0 0 0.5em 0;
+  }
+  .content :global(img) {
+    max-width: 100%;
+    height: auto;
   }
 </style>
 
