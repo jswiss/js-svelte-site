@@ -9,4 +9,4 @@
   }
 </style>
 
-<div id="avatar" />
+<div id="avatar" rel="prefetch" />
