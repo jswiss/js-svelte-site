@@ -48,13 +48,10 @@ So, let's build this layout using both CSS Grid and Flexbox!
 
 Here's the layout using Grid:
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="css,result" data-user="jswiss" data-slug-hash="BaorJOo" data-preview="true" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Basic Layout - Grid">
-  <span>See the Pen <a href="https://codepen.io/jswiss/pen/BaorJOo">
-  Basic Layout - Grid</a> by Joshua Swiss (<a href="https://codepen.io/jswiss">@jswiss</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe height="350" style="width: 70%;" scrolling="no" title="Basic Layout - Grid" src="https://codepen.io/jswiss/embed/BaorJOo?height=350&theme-id=dark&default-tab=css,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/jswiss/pen/BaorJOo'>Basic Layout - Grid</a> by Joshua Swiss
+  (<a href='https://codepen.io/jswiss'>@jswiss</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 Overall, pretty simple! However, there are a few things worth noting, that may not be otherwise obvious:
 
@@ -65,13 +62,10 @@ Overall, pretty simple! However, there are a few things worth noting, that may n
 
 Now, let's check out the same layout, this time using Flexbox:
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="css,result" data-user="jswiss" data-slug-hash="dyYmdWy" data-preview="true" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Basic Layout - Flexbox">
-  <span>See the Pen <a href="https://codepen.io/jswiss/pen/dyYmdWy">
-  Basic Layout - Flexbox</a> by Joshua Swiss (<a href="https://codepen.io/jswiss">@jswiss</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe height="350" style="width: 70%;" scrolling="no" title="Basic Layout - Flexbox" src="https://codepen.io/jswiss/embed/dyYmdWy?height=350&theme-id=dark&default-tab=css,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/jswiss/pen/dyYmdWy'>Basic Layout - Flexbox</a> by Joshua Swiss
+  (<a href='https://codepen.io/jswiss'>@jswiss</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 A little more verbose! I wrapped the second row in a `section` element so I could have rows inside columns (notice how Flexbox's rows/columns are the inverse of Grid's?). Let's break it down a little:
 
@@ -84,13 +78,10 @@ A little more verbose! I wrapped the second row in a `section` element so I coul
 
 Here's the same layout using Bootstrap!
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="css,result" data-user="jswiss" data-slug-hash="xxwWWqO" data-preview="true" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Basic Grid - Bootstrap">
-  <span>See the Pen <a href="https://codepen.io/jswiss/pen/xxwWWqO">
-  Basic Grid - Bootstrap</a> by Joshua Swiss (<a href="https://codepen.io/jswiss">@jswiss</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe height="350" style="width: 70%;" scrolling="no" title="Basic Grid - Bootstrap" src="https://codepen.io/jswiss/embed/xxwWWqO?height=350&theme-id=dark&default-tab=css,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/jswiss/pen/xxwWWqO'>Basic Grid - Bootstrap</a> by Joshua Swiss
+  (<a href='https://codepen.io/jswiss'>@jswiss</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 Funnily enough, even though I imported Bootstrap here, I'm _still_ using Flexbox! This is because Bootstrap uses the 12-column grid convention, and I _hate_ it. The 12-column grid layout is a web design convention that, at best, requires you to do some calculations, and at worst, requires you to overuse [magic numbers](https://css-tricks.com/magic-numbers-in-css/).
 
