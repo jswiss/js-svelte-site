@@ -1,9 +1,9 @@
 ---
 layout: blog
-title: "Re-learning CSS Part 1: Grid or Flexbox"
+title: 'Re-learning CSS Part 1: Grid or Flexbox'
 date: 2020-05-01T16:03:45.390Z
-headings: "tutorial, learning, how to, how-to, css, html, web dev, web
-  development, css-grid, grid, flexbox, layout, columns "
+headings: 'tutorial, learning, how to, how-to, css, html, web dev, web
+  development, css-grid, grid, flexbox, layout, columns '
 ---
 
 _TL;DR - CSS Grid and Flexbox are great. I use Grid for layouts and two-dimensional renderings, and Flexbox for one-dimensional renderings and components._
@@ -26,11 +26,11 @@ First up, layouts. Specifically, should I build my layout with CSS Grid or Flexb
 
 According to our good friends at CanIUse (as of 8 May, 2020) both Flexbox and Grid work with the browsers a significant majority of people use.
 
-![Can I Use CSS Grid](/uploads/can-i-use-grid.png "Can I Use CSS Grid")
+![Can I Use CSS Grid](/uploads/can-i-use-grid.png 'Can I Use CSS Grid')
 
 _[Can I use Grid?](https://caniuse.com/#feat=css-grid)_
 
-![Can I use Flexbox](/uploads/can-i-use-flexbox.png "Can I use Flexbox")
+![Can I use Flexbox](/uploads/can-i-use-flexbox.png 'Can I use Flexbox')
 
 _[Can I use Flexbox?](https://caniuse.com/#feat=flexbox)_
 
@@ -40,7 +40,7 @@ While Grid has a bit more red in its image, it still works with the browsers 95%
 
 Most layouts look something like this:
 
-![A basic layout](/uploads/layout.png "A basic layout")
+![A basic layout](/uploads/layout.png 'A basic layout')
 
 I'd hazard a guess that a ridiculous proportion of websites have some form of this basic layout in place, with a header for title/nav/avatar, a footer for contact, external navigation, etc. two sidebars for whatever, and a main section in the middle. This layout is so popular, its been dubbed the ['Holy Grail' Layout](https://css-tricks.com/snippets/css/css-grid-starter-layouts/) by our pals over at CSS Tricks!
 
@@ -56,7 +56,7 @@ Here's the layout using Grid:
 Overall, pretty simple! However, there are a few things worth noting, that may not be otherwise obvious:
 
 - The element with `display: grid;` (here a `div` with the id of grid) sets top-level child elements of that div to exist in a grid display;
-- `grid-template-rows` and `grid-template-columns` set up the grid. Here we have a 3x3 grid, with the header and footer set to 50px height, and the left and right sidebars set to 150px width;
+- `grid-template-rows` and `grid-template-columns` set up the grid. Here we have a 3x3 grid, with the header and footer set to 50px height, and the left and right sidebars set to 100px width;
 - `grid-gap` is shorthand for `grid-column-gap` _and_ `grid-row-gap`. Here I set both to 1em;
 - Similarly, `grid-column` is shorthand for `grid-column-start` and `grid-column-end`, where the grid item is not inclusive of the end column. Where I have `grid-column: 1 / 4;`, it means `grid-column-start: 1;, grid-column-end: 4;`, which means this grid item spans columns 1, 2, and 3.
 
