@@ -19,7 +19,7 @@ I often dreaded styling anything beyond minor tweaks. If I had to create a card,
 
 Let's say you want a very basic card that has one piece of child content in it, and that content is centred vertically and horizontally. For the sake of this example, let's say it's holiday destinations. Here's some simple code to get started:
 
-<iframe height="265" style="width: 100%;" scrolling="no" title="Simple Centred Card" src="https://codepen.io/jswiss/embed/LYGRpRo?height=265&theme-id=dark&default-tab=css,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+<iframe height="600" style="width: 100%;" scrolling="no" title="Simple Centred Card" src="https://codepen.io/jswiss/embed/LYGRpRo?height=265&theme-id=dark&default-tab=css,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/jswiss/pen/LYGRpRo'>Simple Centred Card</a> by Joshua Swiss
   (<a href='https://codepen.io/jswiss'>@jswiss</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
@@ -38,7 +38,7 @@ While this card layout is pretty simple, it's not all that useful. Let's move on
 
 Building on the last example; we need a little more for your holiday cards. Just saying the destination name doesn't really do much. Let's add a photo, and the date visited:
 
-<iframe height="265" style="width: 100%;" scrolling="no" title="Card: Centred with Sections" src="https://codepen.io/jswiss/embed/ZEQpbNw?height=265&theme-id=dark&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+<iframe height="600" style="width: 100%;" scrolling="no" title="Card: Centred with Sections" src="https://codepen.io/jswiss/embed/ZEQpbNw?height=265&theme-id=dark&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/jswiss/pen/ZEQpbNw'>Card: Centred with Sections</a> by Joshua Swiss
   (<a href='https://codepen.io/jswiss'>@jswiss</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
@@ -57,7 +57,7 @@ Ok! Our cards are starting to look pretty decent, but I think they could be bett
 
 The final example has the card's title and date in the 'header' section aligned to the left, and changes the footer to a 'card-action-area' where there are 'open' and 'edit' buttons.
 
-<iframe height="611" style="width: 100%;" scrolling="no" title="Cards with complex sections" src="https://codepen.io/jswiss/embed/ZEQpWWp?height=611&theme-id=dark&default-tab=css,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+<iframe height="600" style="width: 100%;" scrolling="no" title="Cards with complex sections" src="https://codepen.io/jswiss/embed/ZEQpWWp?height=611&theme-id=dark&default-tab=css,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/jswiss/pen/ZEQpWWp'>Cards with complex sections</a> by Joshua Swiss
   (<a href='https://codepen.io/jswiss'>@jswiss</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
