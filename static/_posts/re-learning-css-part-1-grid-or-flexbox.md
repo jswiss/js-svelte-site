@@ -1,9 +1,9 @@
 ---
 layout: blog
-title: 'Re-learning CSS Part 1: Grid or Flexbox'
+title: "Re-learning CSS Part 1: Grid or Flexbox for Layouts?"
 date: 2020-05-01T16:03:45.390Z
-headings: 'tutorial, learning, how to, how-to, css, html, web dev, web
-  development, css-grid, grid, flexbox, layout, columns '
+headings: "tutorial, learning, how to, how-to, css, html, web dev, web
+  development, css-grid, grid, flexbox, layout, columns "
 ---
 
 _TL;DR - CSS Grid and Flexbox are great. I use Grid for layouts and two-dimensional renderings, and Flexbox for one-dimensional renderings and components._
@@ -26,11 +26,11 @@ First up, layouts. Specifically, should I build my layout with CSS Grid or Flexb
 
 According to our good friends at CanIUse (as of 8 May, 2020) both Flexbox and Grid work with the browsers a significant majority of people use.
 
-![Can I Use CSS Grid](/uploads/can-i-use-grid.png 'Can I Use CSS Grid')
+![Can I Use CSS Grid](/uploads/can-i-use-grid.png "Can I Use CSS Grid")
 
 _[Can I use Grid?](https://caniuse.com/#feat=css-grid)_
 
-![Can I use Flexbox](/uploads/can-i-use-flexbox.png 'Can I use Flexbox')
+![Can I use Flexbox](/uploads/can-i-use-flexbox.png "Can I use Flexbox")
 
 _[Can I use Flexbox?](https://caniuse.com/#feat=flexbox)_
 
@@ -40,7 +40,7 @@ While Grid has a bit more red in its image, it still works with the browsers 95%
 
 Most layouts look something like this:
 
-![A basic layout](/uploads/layout.png 'A basic layout')
+![A basic layout](/uploads/layout.png "A basic layout")
 
 I'd hazard a guess that a ridiculous proportion of websites have some form of this basic layout in place, with a header for title/nav/avatar, a footer for contact, external navigation, etc. two sidebars for whatever, and a main section in the middle. This layout is so popular, its been dubbed the ['Holy Grail' Layout](https://css-tricks.com/snippets/css/css-grid-starter-layouts/) by our pals over at CSS Tricks!
 

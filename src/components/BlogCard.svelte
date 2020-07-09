@@ -47,7 +47,7 @@
 
 <div class="blog-card">
   <div class="title">
-    <a href="blog/{slug}">{title}</a>
+    <a href="blog/{slug}" rel="prefetch">{title}</a>
   </div>
   <div class="card-footer">
     <p class="post-date">Published: {dateConverter(postDate)}</p>
