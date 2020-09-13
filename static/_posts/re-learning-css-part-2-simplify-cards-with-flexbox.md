@@ -6,11 +6,11 @@ headings: css, flex, flexbox, css-grid, style, web development, cards, lesson,
   tutorials, guide
 ---
 
-_This is an ongoing series where I am starting over learning modern CSS. You can find other posts in this series below:_
+*This is an ongoing series where I am starting over learning modern CSS. You can find other posts in this series below:*
 
-- [Part 1: CSS Grid or Flexbox for Layouts?](https://joshuaswiss.dev/blog/re-learning-css-part-1-grid-or-flexbox)
+* [Part 1: CSS Grid or Flexbox for Layouts?](https://joshuaswiss.dev/blog/re-learning-css-part-1-grid-or-flexbox)
 
-_TL;DR - Styling cards used to be a pain. With Flexbox it's pretty easy!_
+*TL;DR - Styling cards used to be a pain. With Flexbox it's pretty easy!*
 
 CSS is tough. When I started professionally developing websites about five years ago, there was zero incentive to develop CSS knowledge; even basic layouts seemed hacky, with prolific use of `float: right;` this and `margin: 0 auto;` that. It didn't intrinsically make sense and only added to the mystique and inapproachability that was CSS at the time.
 
@@ -29,7 +29,7 @@ Each card is an `article` element. The cards are inside a `section` element, whe
 
 ![Basic Card Flex Styles to Center Vertically and Horizontally](/uploads/basic-card-style.svg "Basic Card Flex Styles to Center Vertically and Horizontally")
 
-Flex, like grid, are known as 'display-inside' keywords that can be assigned to the `display` property. 'Display-inside' keywords change how the element's inner content is displayed. This is in contrast to 'display-outside' keywords that change the element's outer display type, or the role the element has in the layout flow. Some 'display-outside' keywords are `block` or `inline`.
+ Flex, like grid, are known as 'display-inside' keywords that can be assigned to the `display` property. 'Display-inside' keywords change how the element's inner content is displayed. This is in contrast to 'display-outside' keywords that change the element's outer display type, or the role the element has in the layout flow. Some 'display-outside' keywords are `block` or `inline`.
 
 Within an element where the `display: flex;` property/keyword is assigned, child elements are centred vertically with `align-items: center;` and horizontally with `justify-content: center;`.
 

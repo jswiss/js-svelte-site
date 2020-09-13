@@ -56,9 +56,9 @@
       working in Typescript from now on.
     </p>
     <p>
-      Over the years I have had to work with other languages too; PHP, Ruby,
-      Java, etc. I no expert in any of them, but I certainly know enough to
-      navigate an existing code base.
+      Over the years I've had the pleasure to work with other languages too;
+      PHP, Ruby, Java, etc. I'm no expert in any of them, but I certainly know
+      enough to navigate an existing code base.
     </p>
     <p>
       I am currently learning and re-learning some languages and frameworks that
