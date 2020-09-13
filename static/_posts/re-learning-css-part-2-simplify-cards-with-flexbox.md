@@ -5,6 +5,7 @@ date: 2020-06-15T16:00:43.796Z
 headings: css, flex, flexbox, css-grid, style, web development, cards, lesson,
   tutorials, guide
 ---
+
 *This is an ongoing series where I am starting over learning modern CSS. You can find other posts in this series below:*
 
 * [Part 1: CSS Grid or Flexbox for Layouts?](https://joshuaswiss.dev/blog/re-learning-css-part-1-grid-or-flexbox)
