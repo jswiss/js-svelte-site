@@ -63,8 +63,8 @@
     <p>
       I am currently learning and re-learning some languages and frameworks that
       I write about in my
-      <a href="blog">blog</a>
-      , including:
+      <a href="blog">blog,</a>
+      including:
     </p>
     <ul>
       <li>Rust;</li>
@@ -86,8 +86,7 @@
     <p>
       If you want to read about whatever; JavaScript, Rust, fermentation,
       running, life, etc., please check out my
-      <a href="blog">blog</a>
-      .
+      <a href="blog">blog.</a>
     </p>
   </section>
 </main>
