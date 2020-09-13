@@ -1,0 +1,20 @@
+{
+	"background_color": "#5aa830",
+	"theme_color": "#f5f5f5",
+	"name": "Joshua Swiss's Personal Site",
+	"short_name": "joshua-swiss-site",
+	"display": "minimal-ui",
+	"start_url": "/",
+	"icons": [
+		{
+			"src": "/images/js-192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/images/js-512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}
